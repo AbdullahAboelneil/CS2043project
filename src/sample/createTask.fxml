@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="400.0" minWidth="10.0" prefWidth="198.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="400.0" minWidth="10.0" prefWidth="198.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="400.0" minWidth="10.0" prefWidth="198.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="400.0" minWidth="10.0" prefWidth="198.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="238.0" minWidth="0.0" prefWidth="202.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="88.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="73.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="66.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="66.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="96.0" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="96.0" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="160.0" minHeight="2.0" prefHeight="62.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="160.0" minHeight="2.0" prefHeight="62.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="280.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="280.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label text="Task name: " GridPane.rowIndex="9" />
+      <TextField prefHeight="30.0" prefWidth="30.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+      <Label text="Status" GridPane.rowIndex="11" />
+      <TextField GridPane.columnIndex="4" GridPane.rowIndex="11" />
+      <Label text="Description" GridPane.rowIndex="13" />
+      <TextField promptText="50 characters" GridPane.columnIndex="4" GridPane.rowIndex="13" />
+      <Label GridPane.rowIndex="1" />
+      <Label text="Admin" GridPane.rowIndex="3" />
+      <Label text="Editor" GridPane.rowIndex="5" />
+      <Label text="Viewer" GridPane.rowIndex="7" />
+      <Label text="Task List ID" GridPane.rowIndex="1" />
+      <TextField GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <TextField GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <TextField GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <TextField GridPane.columnIndex="4" GridPane.rowIndex="7" />
+      <Separator prefWidth="200.0" GridPane.rowIndex="2" />
+      <Separator prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Separator prefWidth="200.0" GridPane.rowIndex="4" />
+      <Separator prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <Separator prefWidth="200.0" GridPane.rowIndex="6" />
+      <Separator prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <Separator prefWidth="200.0" GridPane.rowIndex="8" />
+      <Separator prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+      <Separator prefWidth="200.0" GridPane.rowIndex="10" />
+      <Separator prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+      <Separator prefWidth="200.0" GridPane.rowIndex="12" />
+      <Separator prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+      <Button mnemonicParsing="false" text="Ok" GridPane.columnIndex="2" GridPane.rowIndex="14" />
+   </children>
+</GridPane>
